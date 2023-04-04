@@ -1,0 +1,13 @@
+*{
+    font-size: 1.7rem;
+}
+
+.navbar{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.navbar-nav{
+    flex-direction: row;
+    gap: 1.5rem;
+}
