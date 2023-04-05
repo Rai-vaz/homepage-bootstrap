@@ -1,7 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import simpleParallax from 'simple-parallax-js';
-import Header from './components/Header';
 import './css/App.css'
+import Header from './components/Header';
+import Slider from './components/Slider';
 
 function App() {
   const image = document.getElementsByClassName('thumbnail');
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <Slider/>
     </div>
     
   )

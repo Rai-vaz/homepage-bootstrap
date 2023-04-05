@@ -1,0 +1,10 @@
+.carousel-inner, .carousel-item{
+    height: 85vh;
+    
+}
+
+.carousel-item{
+    bottom: 2rem;
+}
+
+

@@ -1,13 +1,29 @@
 *{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 
 .navbar{
-    padding-left: .5rem;
-    padding-right: .5rem;
+   padding: 0 .5rem;
 }
 
 .navbar-nav{
     flex-direction: row;
-    gap: 1.5rem;
+    margin-right: 2rem;
+    gap: 2rem;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand span{
+    font-size: 1.3rem;
+    margin-left: .5rem;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.navbar-brand:hover span{
+    color: rgba(255, 255, 255, 0.75);
 }
