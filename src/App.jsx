@@ -3,6 +3,7 @@ import simpleParallax from 'simple-parallax-js';
 import './css/App.css'
 import Header from './components/Header';
 import Slider from './components/Slider';
+import About from './components/About';
 
 function App() {
   const image = document.getElementsByClassName('thumbnail');
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Header/>
       <Slider/>
+      <About/>
     </div>
     
   )

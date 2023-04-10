@@ -3,6 +3,8 @@
 :root {
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
+  --blue-theme: #65DAF9;
+  --title-color: #444;
 }
 
 

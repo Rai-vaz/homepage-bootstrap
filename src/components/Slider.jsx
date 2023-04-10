@@ -10,7 +10,7 @@ const Slider = () => {
   return (
     <main className='container-slider'>
         <Carousel>
-            <Carousel.Item>
+            <Carousel.Item interval={3000}>
                 <img src={Banner1} alt='Banner 1'/>
                 <Carousel.Caption>
                     <h2>Quer criar um e-commerce</h2>
@@ -19,7 +19,7 @@ const Slider = () => {
                 </Carousel.Caption>
             </Carousel.Item>
 
-            <Carousel.Item>
+            <Carousel.Item interval={3000}>
                 <img src={Banner2} alt='Banner 2' className='d-block w-100'/>
                 <Carousel.Caption>
                     <h2>Está querendo tirar o projeto do papel</h2>
@@ -28,7 +28,7 @@ const Slider = () => {
                 </Carousel.Caption>
             </Carousel.Item>           
 
-            <Carousel.Item>
+            <Carousel.Item interval={3000}>
                 <img src={Banner3} alt='Banner 3' className='d-block w-100'/>
                 <Carousel.Caption>
                     <h2>Está buscando manutenção no seu software?</h2>
