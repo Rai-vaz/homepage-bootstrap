@@ -1,0 +1,32 @@
+.service-box{
+    padding: 0 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.service-box svg, .service-box h4{
+    transition: .7s;
+}
+
+.service-box svg{
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+    color: var(--title-color);
+}
+
+.service-box h4{
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.service-box:hover{
+   scale: 1.1;
+}
+
+.service-box:hover h4{
+    color: var(--blue-theme);
+}
+
+.service-box:hover svg{
+    color: var(--blue-theme);
+}

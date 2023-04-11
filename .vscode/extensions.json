@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "tyriar.lorem-ipsum"
+        "tyriar.lorem-ipsum",
+        "ecmel.vscode-html-css"
     ]
 }

@@ -4,6 +4,8 @@ import './css/App.css'
 import Header from './components/Header';
 import Slider from './components/Slider';
 import About from './components/About';
+import Services from './components/Services';
+import Dados from './components/Dados'
 
 function App() {
   const image = document.getElementsByClassName('thumbnail');
@@ -17,6 +19,8 @@ function App() {
       <Header/>
       <Slider/>
       <About/>
+      <Services/>
+      <Dados/>
     </div>
     
   )
