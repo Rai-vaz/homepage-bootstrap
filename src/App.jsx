@@ -6,6 +6,8 @@ import Slider from './components/Slider';
 import About from './components/About';
 import Services from './components/Services';
 import Dados from './components/Dados'
+import CircularProgress from './components/CircularProgress';
+import { Container } from 'react-bootstrap';
 
 function App() {
   const image = document.getElementsByClassName('thumbnail');
@@ -21,6 +23,13 @@ function App() {
       <About/>
       <Services/>
       <Dados/>
+      <Container>
+        <CircularProgress value={450}/>
+        <CircularProgress value={200}/>
+        <CircularProgress value={150}/>
+        <CircularProgress value={120}/>
+      </Container>
+      
     </div>
     
   )
