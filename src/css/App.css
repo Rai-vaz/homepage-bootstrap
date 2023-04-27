@@ -1,0 +1,21 @@
+.data-area{
+    width: 100%;
+    height: 350px;
+    background-image: url('../img/cidadeparallax.png');
+    background-position-x: left;
+    background-position-y: center;
+}
+
+.data-area{
+    padding: 2rem 0;
+}
+
+.progress-box{
+   display: flex;
+   justify-content: center;
+}
+
+#x{
+    width: 100%;
+    height: 300px;
+}
