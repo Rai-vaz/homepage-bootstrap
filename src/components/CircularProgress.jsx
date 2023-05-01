@@ -12,7 +12,7 @@ import '../css/CircularProgressbar.css'
 
 import {Row, Col} from 'react-bootstrap'
 
-const CircularProgress = ({value, lable}) => {
+const CircularProgress = ({value, label}) => {
   const initialValue = 1
   const container_circle_progress_ref = useRef('')
   const [loadCircularProgress, setLoadCircularProgress] = useState(null)
@@ -35,7 +35,7 @@ const CircularProgress = ({value, lable}) => {
             pathColor: 'rgb(62, 152, 199)'
           })}
         />
-        <p className='label'>{lable}</p>
+        <span className='label'>{label}</span>
       </div>
     </VisibilitySensor>
   );
