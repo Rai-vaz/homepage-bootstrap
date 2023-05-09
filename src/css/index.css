@@ -7,6 +7,24 @@
   --title-color: #444;
 }
 
+.main-title{
+  position: relative;
+  font-size: 5rem;
+  color: var(--title-color);
+  text-align: center;
+  padding: 3rem 0 4rem 0;
+}
+
+.main-title::after{
+  content: "";
+  border-top: 3px solid #333;
+  border-radius: 30%;
+  width: 20%;
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+  
+}
 
 
 
