@@ -44,7 +44,7 @@ function App() {
 
       <Container>
         <h3 className='main-title'>Nosso time</h3>
-        <Row>
+        <Row id='wrapper-cards'>
           <CardTime img={Profile1} title='João Silva' text='Engenheiro de software'/>
           <CardTime img={Profile2} title='Ana Julia' text='SEO Consultant'/>
           <CardTime img={Profile3} title='Paulo Baker' text='Project Manager'/>
@@ -52,6 +52,8 @@ function App() {
         </Row>
 
       </Container>
+      <div className='ty'></div>
+      
       
     </div>
     

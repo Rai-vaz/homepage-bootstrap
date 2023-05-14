@@ -1,0 +1,14 @@
+.card{
+    box-shadow: 2px 2px 3px #0000002b;
+    transition: .5s;
+}
+
+#wrapper-cards:hover .animationOn{
+    scale: 0.9;
+    opacity: .7;
+   
+}
+
+#wrapper-cards:hover .animationOff{
+    border: 2px solid var(--blue-theme);
+}
