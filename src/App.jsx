@@ -5,7 +5,7 @@ import Slider from './components/Slider';
 import About from './components/About';
 import Services from './components/Services';
 import CircularProgress from './components/CircularProgress';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import Img from './img/cidadeparallax.png'
 import ImgParallax from './components/ImgParallax';
 import CardTime from './components/CardTime';
@@ -13,7 +13,8 @@ import Profile1 from './img/profile1.jpg'
 import Profile2 from './img/profile2.jpg'
 import Profile3 from './img/profile3.jpg'
 import Profile4 from './img/profile4.jpg'
-
+import ApplyArea from './components/ApplyArea';
+import ImgPattern from './img/pattern.png'
 function App() {
 
   return (
@@ -52,6 +53,23 @@ function App() {
         </Row>
 
       </Container>
+      <div id='apply-area'>
+        <ApplyArea img={ImgPattern}/>
+      </div>
+
+      <div id='portfolio-area'>
+        <Container>
+          <Row>
+            <Col md={12}>
+              <h3 className='main-title'>Conheça nossos projetos</h3>
+            </Col>
+            <Col>
+              <Button variant='outline-primary' active={true}>Todos</Button>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
       <div className='ty'></div>
       
       

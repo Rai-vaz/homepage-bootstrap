@@ -3,7 +3,7 @@ import simpleParallax from 'simple-parallax-js';
 import '../css/ImagParallax.css'
 
 
-const ImgParallax = ({img, text}) => {
+const ImgParallax = ({img, text, cls}) => {
 
     const ImgRef = useRef(null)
 
@@ -17,7 +17,7 @@ const ImgParallax = ({img, text}) => {
     },[])
 
   return (
-    <img ref={ImgRef} src={img} alt={text}/>
+    <img ref={ImgRef} src={img} alt={text} className={cls}/>
   )
 }
 

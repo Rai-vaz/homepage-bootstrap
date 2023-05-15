@@ -26,7 +26,25 @@
   
 }
 
+.main-btn{
+  margin-bottom: 0;
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--blue-theme);
+  text-transform: uppercase;
+  padding: 1rem 2.5rem;
+  border-radius: 3rem;
+  border: 3px solid transparent;
+  font-weight: bolder;
+  transition: .5s;  
+}
 
+.main-btn:hover{
+  color: #fff;
+  background-color: transparent;
+  border-color: var(--blue-theme);
+  
+}
 
 
 

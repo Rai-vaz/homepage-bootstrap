@@ -18,6 +18,10 @@
    
 }
 
+#apply-area{
+    margin-top: 5rem;
+}
+
 .x {
     width: 99vw;
     height: 600px;

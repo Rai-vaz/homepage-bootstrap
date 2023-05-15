@@ -3,6 +3,17 @@
     transition: .5s;
 }
 
+.card-body{
+    text-align: center;
+    background-color: var(--blue-theme);
+    color: #fff;
+}
+
+.card-title{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
 #wrapper-cards:hover .animationOn{
     scale: 0.9;
     opacity: .7;

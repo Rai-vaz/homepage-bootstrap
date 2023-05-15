@@ -1,0 +1,57 @@
+#section-recruitment{
+    min-height: 500px;
+    
+}
+
+#div-left{
+    background-image: url('../img/empresa.jpg');
+    background-size: cover;
+}
+
+#text-recruitment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem; 
+    position: absolute;
+    z-index: 10;
+    color: white;
+    padding: 4rem;
+   
+}
+
+#text-recruitment h4{
+    text-transform: uppercase;
+    margin: 3rem;
+    font-size: 2.8rem;
+
+}
+
+.white-btn{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 1rem 2.5rem;
+    border-radius: 3rem;
+    border: 3px solid #fff;
+    font-weight: bolder;
+    transition: .5s;  
+  }
+  
+.white-btn:hover{
+    color: #fff;
+    background-color: black;
+    border-color: var(--blue-theme);
+    
+
+}
+
+#img-pattern{
+    width: 100%;
+    min-height: 500px;
+}
+
