@@ -22,6 +22,17 @@
     margin-top: 5rem;
 }
 
+#menu{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.project-box{
+    margin: 1rem 0;
+}
+
 .x {
     width: 99vw;
     height: 600px;

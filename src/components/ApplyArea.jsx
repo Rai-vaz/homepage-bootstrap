@@ -8,7 +8,6 @@ const ApplyArea = ({img}) => {
     const imgRef = useRef('')
        
     useEffect(() => {
-        console.log(imgRef.current)
         new Parallax(imgRef.current,{
             delay: 1,
             overflow: false,
