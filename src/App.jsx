@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './css/App.css'
 import Header from './components/Header';
@@ -27,9 +28,22 @@ import ImgProj6 from './img/proj6.jpg'
 
 
 function App() {
+  const allClassBox = document.getElementsByClassName('project-box')
 
-  const func = (params) => {
-    console.log(params)
+  const func = (ref) => {
+
+    const classFiltered = document.getElementsByClassName(ref.current.id)
+   
+    for (let index = 0; index < allClassBox.length; index++) {
+      if (ref.current.id == 'all' ||  classFiltered[0].className.slice(12, 15) == allClassBox[index].className.slice(12, 15)) {
+
+        allClassBox[index].classList.remove('fade-out')
+        
+      }else{
+        allClassBox[index].classList.add('fade-out')
+      }
+      
+    }
   }
 
   return (
@@ -79,10 +93,10 @@ function App() {
               <h3 className='main-title'>Conheça nossos projetos</h3>
             </Col>
             <Col md={12} id='menu'>
-              <ButtonNav text={'Todos'} id="all" cls='active' f={func}/>
-              <ButtonNav text={'Desenvolvimento'} id='dev'/>
-              <ButtonNav text={'Design'} id='dsg'/>
-              <ButtonNav text={'SEO'} id='seo'/>
+              <ButtonNav text={'Todos'} id="all" cls='active' func={func}/>
+              <ButtonNav text={'Desenvolvimento'} id='dev' func={func}/>
+              <ButtonNav text={'Design'} id='dsg' func={func}/>
+              <ButtonNav text={'SEO'} id='seo' func={func}/>
             </Col>
             <Col md={4} className='project-box dev'>
               <img src={ImgProj1} alt='imagem projeto 1' className='img-fluid'/>

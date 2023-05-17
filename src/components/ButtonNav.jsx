@@ -2,22 +2,17 @@ import {useRef} from 'react'
 import {Button} from 'react-bootstrap'
 import '../css/Button.css'
 
-const ButtonNav = ({text, id, cls, f}) => {
+const ButtonNav = ({text, id, cls, func}) => {
 
   const BtnRef = useRef('')
-  const allBtn = document.getElementsByClassName('btn-outline-primary')
+  const allBtn = document.getElementsByClassName('active btn')
   
-  const handleClick = (ref, btns) => {
-    for (let index = 0; index < btns.length; index++) {
-      if (btns[index].id !== ref.current.id) {
-        btns[index].classList.remove('active')
-      }else{
-         btns[index].classList.add('active')
-      }
-      
-    }
+  const handleClick = (ref, btn) => {
 
-    f(ref)
+    btn[0].classList.remove('active')
+    ref.current.classList.add('active')
+    
+    func(ref)
 
   }
 

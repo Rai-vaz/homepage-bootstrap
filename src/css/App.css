@@ -33,6 +33,12 @@
     margin: 1rem 0;
 }
 
+.fade-out{
+    display: none;
+    transition: display 1s ease-out;
+}
+
+
 .x {
     width: 99vw;
     height: 600px;
