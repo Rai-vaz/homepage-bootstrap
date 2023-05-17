@@ -35,7 +35,108 @@
 
 .fade-out{
     display: none;
-    transition: display 1s ease-out;
+}
+
+#new-letter{
+    text-align: center;
+}
+
+#wrapper-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 5rem 0;
+    background-color: rgb(243, 243, 243);
+
+}
+
+#wrapper-form form{
+    width: 600px;
+    max-width: 80%;
+}
+
+
+#wrapper-form p{
+    font-size: 2.2rem;
+    
+}
+
+#wrapper-form input{
+    height: 50px;
+    padding: 2rem 2rem;
+    outline: none;
+    border-radius: 25px 0 0 25px;
+    border: 2px solid var(--blue-theme);
+    border-right: none;
+    font-size: 1.7rem;
+}
+
+.form-control::placeholder{
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.29);
+    font-weight: 650;
+}
+
+.form-control{
+    outline: none;
+}
+
+#wrapper-form button{
+    width: 150px;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 0 25px 25px 0;
+    border-color: var(--blue-theme);
+    border-width: 2px;
+    background-color: var(--blue-theme);
+    color: #fff;
+    font-weight: bold;
+}
+
+#wrapper-form button:hover{
+    background-color: #fff;
+    color: var(--blue-theme);
+}
+
+#container-new-letter{
+    background-color: var(--blue-theme);
+}
+
+#col-new-letter{
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#col-new-letter p{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+#col-new-letter button{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2rem;
+    border-radius: 35px;
+    border-width: 3px;
+    color: var(--blue-theme);
+    border-color: var(--blue-theme);
+    background-color: #fff;
+    padding: 2rem 3rem;
+    transition: 0.5s;
+}
+
+#col-new-letter button:hover{
+    border-color: #fff;
+    color: #fff;
+    background-color: var(--blue-theme);
 }
 
 

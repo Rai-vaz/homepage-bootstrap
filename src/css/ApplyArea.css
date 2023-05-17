@@ -26,7 +26,10 @@
     text-transform: uppercase;
     margin: 3rem;
     font-size: 2.8rem;
+}
 
+#text-recruitment p{
+    font-size: 1.9rem;
 }
 
 .white-btn{

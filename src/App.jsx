@@ -6,7 +6,7 @@ import Slider from './components/Slider';
 import About from './components/About';
 import Services from './components/Services';
 import CircularProgress from './components/CircularProgress';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col, InputGroup, Button, Form} from 'react-bootstrap';
 import Img from './img/cidadeparallax.png'
 import ImgParallax from './components/ImgParallax';
 import CardTime from './components/CardTime';
@@ -119,6 +119,31 @@ function App() {
 
           </Row>
         </Container>
+      </div>
+
+      <div id='new-letter'>
+        <Col md={12} id='wrapper-form'>
+          <h3 className='main-title'>Fique por dentro das novidades</h3>
+          <p>Assine nossa lista de e-mail, e receba nossos conteúdos sobre desenvolvimento de software</p>
+          <form action="">
+            <InputGroup>
+              <Form.Control
+                placeholder='Digite seu E-mail'
+                aria-label='digite seu email'
+                aria-describedby="basic-addon2"
+              />
+              <Button variant='outline-primary' id='button-addon2'>increver</Button>
+            </InputGroup>
+          </form>
+        </Col>
+
+        <Container fluid={true} id='container-new-letter'>
+          <Col id='col-new-letter'>
+            <p>Deseja fazer um orçamento sem compromisso</p>
+            <Button variant='outline-primary'>Orçar</Button>
+          </Col>
+        </Container>
+
       </div>
 
       <div className='ty'></div>
