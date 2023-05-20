@@ -1,3 +1,18 @@
 .btn{
+    background-color: #fff;
+    border: 1px solid var(--blue-theme);
+    color: var(--blue-theme);
     font-size: 1.6rem;
+}
+
+.ativo{
+    border-color: var(--blue-theme) !important;
+    background-color: var(--blue-theme) !important;
+    color: #fff !important;
+}
+
+.btn:hover{
+    border-color: var(--blue-theme);
+    background-color: var(--blue-theme);
+    color: #fff;
 }

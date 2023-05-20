@@ -15,8 +15,9 @@ import Profile2 from './img/profile2.jpg'
 import Profile3 from './img/profile3.jpg'
 import Profile4 from './img/profile4.jpg'
 import ApplyArea from './components/ApplyArea';
-import ImgPattern from './img/pattern.png'
 import ButtonNav from './components/ButtonNav'
+import Footer from './components/Footer';
+import ImgPattern from './img/pattern.png'
 import ImgProj1 from './img/proj1.jpg'
 import ImgProj2 from './img/proj2.jpg'
 import ImgProj3 from './img/proj3.jpg'
@@ -93,7 +94,7 @@ function App() {
               <h3 className='main-title'>Conheça nossos projetos</h3>
             </Col>
             <Col md={12} id='menu'>
-              <ButtonNav text={'Todos'} id="all" cls='active' func={func}/>
+              <ButtonNav text={'Todos'} id="all" cls='ativo' func={func}/>
               <ButtonNav text={'Desenvolvimento'} id='dev' func={func}/>
               <ButtonNav text={'Design'} id='dsg' func={func}/>
               <ButtonNav text={'SEO'} id='seo' func={func}/>
@@ -145,9 +146,7 @@ function App() {
         </Container>
 
       </div>
-
-      <div className='ty'></div>
-      
+      <Footer/>
       
     </div>
     

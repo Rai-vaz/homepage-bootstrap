@@ -1,0 +1,104 @@
+#wrapper-contact{
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--blue-theme);
+}
+
+.box-contact{
+    text-align: center;
+}
+
+.box-contact svg{
+    width: 60px;
+    height: 60px;
+    padding: .5rem;
+    fill: var(--blue-theme);
+    
+}
+
+.box-contact p, span{
+    font-size: 1.8rem;
+}
+
+.box-contact span{
+    color: var(--blue-theme);
+    margin-right: .5rem;
+    font-weight: 600;
+}
+
+#wrapper-msg{
+    padding: 2rem 0;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#wrapper-msg p{
+    font-size: 2.3rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.form-control{
+    width: 80%;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+.form .form-control:focus{
+    border: 1px solid var(--blue-theme);
+    background-color: var(--blue-theme);
+    color: #fff;
+    font-weight: 800;
+}
+
+.control-button{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.control-button .btn{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--blue-theme);
+    background-color: var(--blue-theme);
+    text-transform: uppercase;
+    color: #fff;
+    transition: .8s;
+}
+
+.control-button svg{
+    margin-left: 1rem;
+}
+
+.control-button .btn:hover{
+    background-color: #fff;
+    color: var(--blue-theme);
+}
+
+#wrapper-copy-right{
+    background-color: rgb(225, 225, 225);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#wrapper-copy-right a{
+    margin: 0 .8rem 0 .8rem;
+    color: black;
+    font-weight: 700;
+}
+
+#wrapper-copy-right p{
+    margin-bottom: 0;
+}
+
+#wrapper-copy-right a:hover{
+    color: var(--blue-theme);
+}
+
