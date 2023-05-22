@@ -154,3 +154,13 @@
     margin-top: 3rem;
 }
 
+@media screen and (max-width:768px) {
+    .data-area{
+        height: 660px;
+    }
+
+    .progress-box{
+        padding: 1.7rem;
+    }
+}
+

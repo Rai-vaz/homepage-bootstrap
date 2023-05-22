@@ -18,3 +18,15 @@
     fill: var(--blue-theme);
     margin-right: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {   
+    .description{
+        padding: 2rem;
+    }
+
+    .description h3{
+        text-align: center;
+        margin: 2rem 0 2rem 0;
+        
+    }
+}

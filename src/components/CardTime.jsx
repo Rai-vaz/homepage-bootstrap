@@ -17,7 +17,7 @@ const CardTime = ({img, title, text}) => {
   }
 
   return (
-    <Col md={3} sm={12}>
+    <Col md={3} sm={6} className="wrapper-card">
       <Card onMouseEnter={anime} onMouseLeave={stopAnime} className={animate}>
         <Card.Img variant="top" src={img}/>
         <Card.Body>

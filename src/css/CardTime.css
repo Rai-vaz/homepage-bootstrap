@@ -23,3 +23,9 @@
 #wrapper-cards:hover .animationOff{
     border: 2px solid var(--blue-theme);
 }
+
+@media screen and (max-width: 768px) {
+    .wrapper-card{
+        margin-bottom: 2rem;
+    }
+}
