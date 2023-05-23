@@ -7,6 +7,7 @@ import Banner3 from '../img/banner3.png'
 
 
 const Slider = () => {
+
   return (
     <main className='container-slider'>
         <Carousel>
@@ -26,7 +27,7 @@ const Slider = () => {
                     <p>Nossa equipe de engenharia de software está preparada para lhe atender</p>
                     <a href='#' className='main-btn'>Entre em contato</a>
                 </Carousel.Caption>
-            </Carousel.Item>           
+            </Carousel.Item>
 
             <Carousel.Item interval={3000}>
                 <img src={Banner3} alt='Banner 3' className='d-block w-100'/>

@@ -12,11 +12,11 @@ function About() {
             </Col>
         </Row>
         <Row>
-            <Col md={6}>
+            <Col ms={6} className="photo-office">
                 <img className="img-fluid" src={img} alt="Imagem da agencia"/>
             </Col>
 
-            <Col md={6} className="description">
+            <Col ms={6} className="description">
                 <h3 className="about-title">Uma agência que pensa no futuro</h3>
                 <p>Nossos projetos são adaptados ao cliente e seu propósito</p>
                 <p>Após a especificação do projeto os arquiteto de software definirão as melhores ferramentas</p>

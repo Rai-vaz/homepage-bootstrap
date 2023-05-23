@@ -2,6 +2,10 @@
     font-size: 1.6rem;
 }
 
+.navbar{
+    padding: .5rem;
+}
+
 .navbar-collapse{
     justify-content: flex-end;
 }

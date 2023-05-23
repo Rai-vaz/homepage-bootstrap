@@ -73,7 +73,7 @@ function App() {
         </Container>
       </div>
 
-      <Container>
+      <Container id='section-card-time'>
         <h3 className='main-title'>Nosso time</h3>
         <Row id='wrapper-cards'>
           <CardTime img={Profile1} title='João Silva' text='Engenheiro de software'/>
@@ -83,12 +83,13 @@ function App() {
         </Row>
 
       </Container>
+
       <div id='apply-area'>
         <ApplyArea img={ImgPattern}/>
       </div>
 
       <div id='portfolio-area'>
-        <Container>
+        <Container fluid="md">
           <Row>
             <Col md={12}>
               <h3 className='main-title'>Conheça nossos projetos</h3>
@@ -99,22 +100,23 @@ function App() {
               <ButtonNav text={'Design'} id='dsg' func={func}/>
               <ButtonNav text={'SEO'} id='seo' func={func}/>
             </Col>
-            <Col md={4} className='project-box dev'>
+          
+            <Col md={4} sm={6} className='project-box dev' id='t'>
               <img src={ImgProj1} alt='imagem projeto 1' className='img-fluid'/>
             </Col>
-            <Col md={4} className='project-box dsg'>
+            <Col md={4} sm={6} className='project-box dsg'>
               <img src={ImgProj2} alt='imagem projeto 2' className='img-fluid'/>
             </Col>
-            <Col md={4} className='project-box seo'>
+            <Col md={4} sm={6} className='project-box seo'>
               <img src={ImgProj3} alt='imagem projeto 3' className='img-fluid'/>
             </Col>
-            <Col md={4} className='project-box dev'>
+            <Col md={4} sm={6} className='project-box dev'>
               <img src={ImgProj4} alt='imagem projeto 4' className='img-fluid'/>
             </Col>
-            <Col md={4} className='project-box dsg'>
+            <Col md={4} sm={6} className='project-box dsg'>
               <img src={ImgProj5} alt='imagem projeto 5' className='img-fluid'/>
             </Col>
-            <Col md={4} className='project-box seo'>
+            <Col md={4} sm={6} className='project-box seo'>
               <img src={ImgProj6} alt='imagem projeto 6' className='img-fluid'/>
             </Col>
 

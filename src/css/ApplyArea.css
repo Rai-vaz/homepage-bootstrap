@@ -47,10 +47,7 @@
   
 .white-btn:hover{
     color: #fff;
-    background-color: black;
-    border-color: var(--blue-theme);
-    
-
+    background-color: var(--blue-theme);
 }
 
 #img-pattern{

@@ -26,11 +26,12 @@
     margin: 2rem;
     display: flex;
     justify-content: center;
-    gap: 10rem;
+    gap: 4%;
 }
 
 .project-box{
     margin: 1rem 0;
+   
 }
 
 .fade-out{
@@ -154,13 +155,16 @@
     margin-top: 3rem;
 }
 
+
+
 @media screen and (max-width:768px) {
     .data-area{
-        height: 660px;
+        height: 550px;
     }
 
     .progress-box{
-        padding: 1.7rem;
+        margin: 2rem 0;
     }
+ 
 }
 

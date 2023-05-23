@@ -20,13 +20,16 @@
 }
 
 @media screen and (max-width: 768px) {   
-    .description{
-        padding: 2rem;
+    .photo-office{
+        margin-top: 25%;
     }
 
+    .description{
+        padding: 0 2rem;
+    } 
+
     .description h3{
-        text-align: center;
-        margin: 2rem 0 2rem 0;
+        text-align: center;      
         
     }
 }
