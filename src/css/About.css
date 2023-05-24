@@ -33,3 +33,20 @@
         
     }
 }
+
+@media(max-width: 576px){
+    h3.main-title{
+        font-size: 3.1rem;
+    }
+    .photo-office{
+        margin-top: 0;
+    }
+
+    .description{
+        padding: 2rem;
+    }
+
+    .description li{
+        font-size: 1.4rem;
+    }
+}

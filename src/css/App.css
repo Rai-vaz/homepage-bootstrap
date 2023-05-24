@@ -7,6 +7,7 @@
     overflow: hidden;
 }
 
+
 #wrapper-circles{
     position: absolute;
     z-index: 100;
@@ -23,7 +24,7 @@
 }
 
 #menu{
-    margin: 2rem;
+    margin: 2rem 0;
     display: flex;
     justify-content: center;
     gap: 4%;
@@ -158,6 +159,10 @@
 
 
 @media screen and (max-width:768px) {
+    h3.main-title{
+        font-size: 3.5rem;
+    }
+ 
     .data-area{
         height: 550px;
     }
@@ -165,6 +170,52 @@
     .progress-box{
         margin: 2rem 0;
     }
- 
+
+    #wrapper-form{
+        gap: 3rem;
+    }
+
+    #wrapper-form .main-title{
+        padding-top: 0;
+    }
+
+    #wrapper-form p{
+        width: 80%;
+        font-size: 1.8rem;
+    }
+
+    #col-new-letter{
+        height: 150px;
+    }
+
+    #col-new-letter p{
+        font-size: 1.6rem;
+    }
+
+    #col-new-letter button{
+        font-size: 1.6rem;
+        padding: 1.4rem 2rem;
+    }
+
+    
+}
+
+@media(max-width: 576px){
+    .data-area{
+        height: auto;
+    }
+
+    #wrapper-form input{
+        width: 60%;
+    }
+
+    #wrapper-form button{
+        width: 30%;
+        font-size: 1.2rem;
+    }
+
+    #container-new-letter p{
+        font-size: 1.2rem;
+    }
 }
 

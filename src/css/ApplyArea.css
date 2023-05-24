@@ -55,3 +55,20 @@
     min-height: 500px;
 }
 
+@media(max-width: 576px){
+    #text-recruitment{
+        padding: 2rem;
+    }
+    #text-recruitment h4{
+        font-size: 2rem;
+    }
+
+    #text-recruitment p{
+        font-size: 1.6rem;
+    }
+
+    #img-pattern{
+        height: 100% !important;
+    }
+}
+

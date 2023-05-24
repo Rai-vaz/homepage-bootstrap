@@ -2,6 +2,11 @@
     font-size: 1.6rem;
 }
 
+.bb{
+    border-bottom: 1px solid var(--blue-theme);
+}
+
+
 .navbar{
     padding: .5rem;
 }

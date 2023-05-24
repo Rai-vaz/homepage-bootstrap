@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 16rem;
+    width: 50%;
 }
 
 .label{
@@ -13,4 +13,10 @@
 
 .label:last-child{
     text-align: center;
+}
+
+@media(max-width: 576px){
+    .circular-progress-wrapper{
+        width: 30%;
+    }
 }

@@ -6,7 +6,7 @@ import '../css/Footer.css'
 const Footer = () => {
   return (
     <footer>
-      <Container fluid>
+      <Container fluid="md">
         <Row>
           <Col md={12}>
             <h3 className='main-title'>Entre em contato conosco</h3>

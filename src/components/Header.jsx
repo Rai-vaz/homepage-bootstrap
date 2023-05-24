@@ -5,17 +5,23 @@ import LogoMarca from '../img/hdcagency_logo.svg'
 
 const Header = () => {
 
-    const [showMenu, setShowMenu] = useState(false)
+  const [showMenu, setShowMenu] = useState(false)
+  const [scroll, setScroll] = useState(0)
+  
+  const handleClick = () => {
+    setShowMenu(!showMenu)
     
-    const handleClick = () => {
-      setShowMenu(!showMenu)
-     
-    }
+  }
+
+  window.addEventListener('scroll', () => {
+    setScroll(Math.trunc(window.scrollY))
+  })
+ 
 
   return (
     <header>
       <Container>
-        <Navbar bg='dark' variant='dark' fixed='top' expand='sm'>
+        <Navbar bg='dark' variant='dark' fixed='top' expand='sm' className={scroll > 300 && 'bb'}>
           <Navbar.Brand href='#'>
             <img src={LogoMarca}
               id='logo'
